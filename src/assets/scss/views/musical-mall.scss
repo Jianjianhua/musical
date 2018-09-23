@@ -1,0 +1,144 @@
+.musical-mall {
+  padding-bottom: 98px;
+
+  .background {
+    height: 478px;
+    width: 100%;
+    background: url('../../assets/img/musical-mall/banner.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  .contain {
+    position: relative;
+    padding: 0 $gutter;
+
+    .base {
+      position: absolute;
+      top: -234px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 702px;
+      height: 406px;
+      background: #fff;
+      border-radius: 10px;
+      display: flex;
+      // align-items: center;
+      padding: $gutter;
+
+      .mainPic {
+        text-align: center;
+        align-self: center;
+
+        img {
+          width: 100%;
+          // height: 100%;
+          transform: scale(1.5)
+        }
+      }
+
+      .base-detail {
+        width: 435px;
+
+        h2 {
+          color: $black;
+          font-size: $lg-font;
+          margin-bottom: 19px;
+        }
+
+        p {
+          line-height: 32px;
+          color: $font-color-gray;
+          margin-bottom: 30px;
+        }
+
+        .base-list {
+          display: flex;
+          align-items: center;
+
+          a {
+            display: flex;
+            // align-items:center;
+            flex-direction: column;
+
+            p {
+              color: $blue;
+              margin-top: 25px;
+              margin-left: 10px;
+            }
+          }
+
+          .base-pic {
+            width: 164px;
+            height: 118px;
+            text-align: left;
+
+            img {
+              height: 100%;
+              transform: scale(1.3)
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+  .mall-product {
+    margin-top: 184px;
+
+    li {
+      margin-top: 10px;
+      // height: 276px;
+      background: #fff;
+      display: flex;
+      padding: $gutter;
+
+      .mall-pic {
+        img {
+          width: 236px;
+          height: 236px;
+        }
+      }
+
+      .explain {
+        h2 {
+          font-size: $lg-font;
+          color: $black;
+          margin-bottom: 10px;
+        }
+        p{
+          line-height: 32px;
+          color: $font-color-gray;
+          font-size: $sm-font;
+          margin-bottom: 25px;
+        }
+        .explain-bottom{
+          position: relative;
+          display: flex;
+          // justify-content: space-between;
+          // align-items: center;
+          .price{
+            color: $blue;
+            font-size: $lg-font;
+          }
+          .quantity{
+            margin-left: 22px;
+            margin-top: 5px;
+            color:$font-color-light-gray;;
+            font-size: 10px;
+          }
+          a{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            display: block;
+            padding: 12px 25px;
+            border-radius: 10px;
+            border: solid 2px #2ea3fc;
+            color: #2ea3fc;
+          }
+        }
+      }
+    }
+  }
+}

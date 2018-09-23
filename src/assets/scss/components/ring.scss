@@ -1,0 +1,52 @@
+.ring{
+  .user{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    .avator{
+      width: 70px;
+      height: 70px;
+      
+      img{
+        width:100%;
+        border-radius: 100%;
+      }
+    }
+    span{
+      margin-left: 20px;
+      font-size: $normal-font;
+    }
+    .time{
+      position: absolute;
+      right: 0;
+      top:$gutter;
+      font-size: $normal-font;
+
+    }
+  }
+  .comments{
+    font-size: $sm-font;
+    line-height: 36px;
+    color:$black;
+  }
+  .pic{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 220px;
+    img{
+      height: 100%;
+    }
+  }
+  .icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    span{
+      margin-left: 21px;
+    }
+  }
+}

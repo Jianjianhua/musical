@@ -1,0 +1,45 @@
+.shipping-address{
+  .address{
+    margin-bottom: 10px;
+    background: #fff;
+    .info{
+      padding: $gutter;
+      border-bottom: 1px solid $border-color;
+      .user-info{
+        display: flex;
+        justify-content: space-between;
+        color: $black;
+        font-size: $lg-font;
+        margin-bottom: 27px;
+      }
+      .address-main{
+        line-height: 40px;
+        font-size: $normal-font;
+      }
+    }
+    .control-btn{
+      height: 90px;
+      padding:0 $gutter;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid $border-color;
+      .yd-checkbox-text{
+        color: $black;
+        font-size: $sm-font;
+        transform: translateY(-10px)
+      }
+      .yd-btn {
+        width: 140px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: $normal-font;
+        margin-left: 20px;
+      }
+    }
+  }
+  .toadd{
+    display: block;
+    padding: $gutter;
+  }
+}

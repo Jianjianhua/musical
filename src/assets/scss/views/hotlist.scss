@@ -1,0 +1,58 @@
+.hot-list{
+  .yd-tab-nav {
+    height: 90px;
+    .yd-tab-nav-item {
+      line-height: 90px !important;
+      font-size: $md-font;
+      &.yd-tab-active {
+        color: $blue !important;
+      }
+    }
+  }
+  .product{
+    display: flex;
+    padding: $gutter;
+    background: #fff;
+    margin-top: 10px;
+    .pic{
+      width: 247px;
+      height: 247px;
+      text-align: center;
+      margin-right: 30px;
+      img{
+        // width: 100%;
+        height: 100%;
+      }
+    }
+    .detail{
+      position: relative;
+      .title{
+        line-height: 38px;
+        color: $black;
+        font-size: $normal-font;
+      }
+      .price{
+        color: $orange;
+        font-size:$lg-font;
+        margin-top: 69px;
+        margin-bottom: 20px;
+      }
+      .oldPrice{
+        color: $font-color-light-gray;
+        margin-bottom: 20px;
+      }
+      .count{
+        color: $font-color-light-gray;
+      }
+      .buy{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 140px;
+        height: 48px;
+        border-radius: 10px;
+        font-size: $sm-font;
+      }
+    }
+  }
+}

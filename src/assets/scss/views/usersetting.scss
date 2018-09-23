@@ -1,0 +1,14 @@
+.user-setting{
+  .menu{
+    .yd-cell-item:not(:last-child):after{
+      margin-left: 0;
+    }
+    .yd-cell-item{
+      height: 90px;
+      line-height: 90px;
+    }
+  }
+  .back-btn{
+    padding: $gutter;
+  }
+}

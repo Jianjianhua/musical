@@ -1,0 +1,120 @@
+.user{
+  padding-bottom: 98px+$gutter;
+  .user-header{
+    padding: $gutter;
+    height: 356px;
+    width: 100%;
+    background: url('../../assets/img/user-center/bg.jpg') no-repeat center;
+    .caption{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .user-message{
+      text-align: center;
+      color: #fff;
+      font-size: $normal-font;
+      img{
+        width: 154px;
+        height: 154px;
+      }
+      p{
+       margin: 19px 0;
+      }
+      span:nth-of-type(1){
+        font-size: $sm-font;
+        margin-right: 62px;
+        margin-left: 20px;
+      }
+    }
+  }
+  .yd-cell-left{
+    span{
+      font-size: $md-font;
+      color: $black;
+    }
+  }
+  .yd-cell-right{
+    font-size: $sm-font;
+    color:$font-color-light-gray;
+    margin-right: 10px;
+  }
+  .user-order{
+    margin-top: 10px;
+    background: #fff;
+    .order-list{
+      display: flex;
+      align-items: center;
+      justify-content:space-around;
+      padding: $gutter;
+      a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: $sm-font;
+        
+        span{
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .user-collect{
+    margin-top: 10px;
+    background: #fff;
+    .product-list{
+      display: flex;
+      
+      li+li{
+        border-left: 2px solid $border-color;
+      }
+      a{
+        display: flex;
+        flex-direction: column;
+        width: 186px;
+        height: 214px;
+        img{
+          width: 100%;
+          height:80%;
+        }
+        span{
+          color:$orange;
+          margin-left: $gutter;
+          font-size: $md-font;
+          transform: translateY(-40px)
+        }
+      }
+    }
+  }
+  .coupon{
+    background: #fff;
+    margin-top: 10px;
+    .coupon-text{
+      font-size: $sm-font!important;
+    }
+  }
+  .tools{
+    margin-top: 10px;
+    background: #fff;
+    .tool{
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      align-items: center;
+      padding-bottom: $gutter;
+      li{
+        width: 25%;
+        margin-top: $gutter;
+        a{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          span{
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+    
+  }
+}

@@ -1,0 +1,54 @@
+.address{
+  background: $bg-color;
+  .add-address{
+    .add-item{
+      height: 90px;
+      width: 100%;
+      line-height: 90px;
+      padding: 0 $gutter;
+      border-bottom: 1px solid $bg-color;
+      font-size: $normal-font;
+      background: #fff;
+      span{
+        margin-right: 96px;
+      }
+      
+    }
+    .yd-cell-box {
+      margin-bottom: 0;
+    }
+    .yd-cell{
+      height: 90px;
+      line-height: 90px;
+      border-bottom: 1px solid $bg-color;
+
+      span{
+        font-size: $normal-font;
+        color: $black;
+      }
+      .yd-cell-right{
+        input{
+          text-align: right;
+          font-size: $normal-font;
+          color: $black;
+        }
+      }
+      
+    }
+    .textarea{
+      textarea{
+        padding: $gutter;
+        height: 180px;
+        width: 100%;
+        border-bottom: 1px solid $bg-color;
+        font-size: $normal-font;
+        color: $font-color-light-gray;
+      }
+     
+    }
+  }
+  .add-btn{
+    padding: 0 $gutter;
+    margin-top: 80px;
+  }
+}

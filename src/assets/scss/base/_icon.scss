@@ -1,0 +1,66 @@
+.icon{
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  @include icon('arrow-left');
+  @include icon('eye');
+  @include icon('qq');
+  @include icon('wechat');
+  @include icon('weibo');
+  @include icon('scan');
+  @include icon('search');
+  @include icon('message');
+  
+  $tabberIcon:(home,category,group,cart,user);
+  @each $item in $tabberIcon{
+    @include icon($item);
+    @include icon($item+'-active')
+  }
+
+  @include icon('huodong');
+  @include icon('teach');
+  @include icon('video');
+  @include icon('musical-mall');
+  @include icon('hot');
+  @include icon('like');
+  @include icon('point');
+
+  @include icon('keyboard');
+  @include icon('blow');
+  @include icon('white-search');
+  @include icon('white-del');
+  @include icon('white-cart');
+  @include icon('del');
+  @include icon('setting');
+  @include icon('wait-pay');
+  @include icon('wait-send');
+  @include icon('wait-comment');
+  @include icon('receiving');
+  @include icon('refund');
+
+  @include icon('about');
+  @include icon('doc');
+  @include icon('feedback');
+  @include icon('history');
+  @include icon('pos');
+  @include icon('lock');
+  @include icon('gray-share');
+  @include icon('rmjx');
+  @include icon('ppyq');
+  @include icon('ymhLOGO');
+  @include icon('zjgqLOGO');
+  @include icon('play');
+  @include icon('heart');
+  @include icon('comments');
+  @include icon('share');
+  @include icon('heart-active');
+
+  @include icon('kefu');
+  @include icon('star');
+
+  @include icon('add');
+  @include icon('smile');
+  @include icon('mic');
+}

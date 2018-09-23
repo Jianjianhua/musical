@@ -1,0 +1,24 @@
+// icon
+@mixin icon($name) {
+  &.icon-#{$name} {
+    width: width('icon/icon-'+$name+'.png');
+    height: height('icon/icon-'+$name+'.png');
+    background-image: resolve('icon/icon-'+$name+'.png')
+  }
+}
+
+// 单行文本省略号
+@mixin singleText {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+// 多行文本省略号
+@mixin multipleText($num) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $num;
+  -webkit-box-orient: vertical;
+}

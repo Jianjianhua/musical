@@ -1,0 +1,14 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $gutter;
+  width: 100%;
+  height: 128px;
+  background: $blue-bg-color;
+  color: #fff;
+  font-size: $md-font;
+  i{
+    transform: scale(0.8)
+  }
+}

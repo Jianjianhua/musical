@@ -1,0 +1,17 @@
+.register{
+  background: #fff;
+  padding-bottom: 98px+$gutter;
+
+}
+.bottom{
+  margin-top: $gutter;
+  .yd-checkbox-text{
+    display: none;
+  }
+ display: flex;
+ align-items: center;
+ font-size: $normal-font;
+ a{
+   color: $blue;
+ }
+}

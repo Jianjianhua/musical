@@ -1,0 +1,27 @@
+.coupon{
+  .yd-tab-nav{
+    height: 90px;
+    .yd-tab-nav-item{
+      line-height: 90px!important;
+      font-size: $md-font;
+      &.yd-tab-active{
+        color: $blue!important;
+      }
+    }
+  }
+  .coupon-content{
+    .yd-tab-panel-item{
+      display: flex;
+      flex-wrap: wrap;
+    } 
+    .coupons{
+      padding: $gutter;
+      width: 369px;
+      height: 100%;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+    }
+  }
+}

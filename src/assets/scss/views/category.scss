@@ -1,0 +1,86 @@
+.category {
+  padding-bottom: 98px + $gutter;
+
+  .category-main {
+    .yd-scrolltab-content {
+      background: $bg-color;
+      padding: 0;
+    }
+
+    .yd-scrolltab {
+      top: 125px;
+    }
+
+    .yd-scrolltab-item {
+      position: relative;
+      width: 154px;
+      height: 98px;
+      padding: 36px $gutter;
+      text-align: center;
+
+      &.yd-scrolltab-active {
+        .yd-scrolltab-title {
+          // position: relative;
+          color: $blue;
+          &::after {
+            content: '';
+            position: absolute;
+            width: 8px;
+            height: 70px;
+            background-color: $blue;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+
+    .yd-scrolltab-icon,
+    .yd-scrolltab-content-title {
+      display: none;
+    }
+
+    .main-box {
+      margin-top: 10px;
+      padding: $gutter;
+      margin-bottom: 20px;
+      background: #fff;
+    }
+
+    .caption {
+      text-align: center;
+    }
+
+    .products {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .product {
+        width: 33.333%;
+
+        a {
+          position: relative;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          height: 225px;
+          margin-top: 20px;
+
+          .pic {
+            img {
+              width: 80%;
+            }
+          }
+
+          span {
+            position: absolute;
+            bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

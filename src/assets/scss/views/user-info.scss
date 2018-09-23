@@ -1,0 +1,28 @@
+.user-info{
+  .yd-cell-box{
+    .avatar{
+      height: 118px!important;
+    }
+    .yd-cell-item {
+      height: 90px;
+      .yd-cell-left{
+        span{
+          color: $font-color-gray;
+        }
+      }
+      .yd-cell-left
+      ,.yd-cell-right{
+        span{
+          font-size: $md-font;
+          margin-right: $gutter;
+          img{
+            width: 70px;
+          }
+        }
+      }
+      .yd-cell-item:not(:last-child):after{
+        margin-left: 0;
+      }
+    }
+  }
+}

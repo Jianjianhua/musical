@@ -1,0 +1,55 @@
+.login {
+   background: #fff;
+  padding-bottom: 98px+$gutter;
+
+  .forget-password {
+    margin-top: 20px;
+    text-align: right;
+    color: $font-color-gray;
+  }
+
+  .other-link {
+    position: relative;
+    text-align: center;
+    color: $blue;
+    margin-top: 100px;
+    padding: 0 56px;
+
+    .line {
+      height: 1px;
+      width: 100%;
+      background: $blue;
+    }
+
+    p {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: -13px;
+      width: 178px;
+      background: #fff
+    }
+  }
+
+  .link-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+
+    .list-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      span {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+.findpassword{
+  padding-bottom: 98px+$gutter;
+  background: #fff;
+}
+

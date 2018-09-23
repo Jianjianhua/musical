@@ -1,0 +1,24 @@
+.circle {
+  padding-bottom: 98px+$gutter;
+  .speak {
+    height: 90px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 90px;
+    input {
+      width: 702px;
+      height: 70px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      border: solid 2px #c2c2c2;
+      text-indent: 20px;
+      font-size: $sm-font;
+      color: $font-color-light-gray;
+    }
+  }
+  .main{
+    margin-top: 10px;
+    padding: $gutter;
+    background: #fff;
+  }
+}

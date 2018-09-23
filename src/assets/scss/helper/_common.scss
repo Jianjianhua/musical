@@ -1,0 +1,51 @@
+.filed {
+  .yd-cell {
+    position: unset;
+  }
+
+  .yd-cell-item {
+    border-bottom: solid 2px $blue;
+    margin-top: 47px;
+    padding: 0;
+
+    .yd-input {
+      input {
+        font-size: $md-font;
+        color: $font-color-light-gray;
+      }
+    }
+
+    .yd-input-password:after {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+.yd-btn-block {
+  border-radius: 10px !important;
+  font-size: $lg-font !important;
+  height: 88px !important;
+}
+
+.register-btn {
+  border: 2px solid $blue !important
+}
+.content {
+  padding: 0 $gutter;
+  background: #fff;
+}
+.code{
+  display: flex;
+  position: relative;
+  // .yd-input{
+  // }
+  .code-btn{
+    position: absolute;
+    bottom: 0;
+    right: $gutter;
+    height: 76px;
+    width: 232px;
+    border-radius: 10px !important;
+    font-size: $lg-font !important;
+  }
+}
